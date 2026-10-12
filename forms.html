@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>My Forms</title>
+    </head>
+
+    <body>
+        <fieldset>
+
+            <legend>Job Application Form</legend>
+        
+        <form action="./nextpage.html"  >
+
+            <label for="uname">Username</label>
+            <input type="text" id="uname" placeholder="Enter your name" name="uname" required>
+            <br><br>
+    
+            <label for="pass">Password</label>
+            <input type="password" id="pass" placeholder="Enter your password" name="password" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter email id" name="emailid">
+            <br><br>
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+            <label for="">Gender</label>
+            
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+
+            <br><br>
+            <label for="age">Age</label>
+            <input type="number" max="35" min="20" id="age" name="age">
+            <br><br>    
+            <label for="addr">Address</label>
+            <textarea name="addr" id="addr" rows="4"  cols="30"></textarea>
+            <br><br>
+            <label for="">Skills</label>
+            <br>
+            <input type="checkbox">Python
+            <br>
+            <input type="checkbox">Java <br>
+            <input type="checkbox">Webdesigning <br>
+            <input type="checkbox">C++ <br>
+            <br><br>
+
+            <label for="">Location</label>
+            <select name="" id="">
+                <option value="Salem">Salem</option>
+                <option value="Trichy">Trichy</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Madurai">Madurai</option>
+            </select>
+
+            <br><br>
+            <label for="res">Resume</label>
+            <input type="file" id="res" name="res">
+            <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+        </fieldset>
+    </body>
+</html>
